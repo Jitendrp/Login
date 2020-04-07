@@ -19,7 +19,7 @@ public class MySqlConnect {
         try
         {
             Class.forName("com.mysql.jdbc.Driver");
-            Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/sonoo?useUnicode=true&characterEncoding=utf8","root","Jithendra@123");
+            Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/sonoo?useUnicode=true&characterEncoding=utf8","root","1234");
             JOptionPane.showMessageDialog(null,"Connection Acess");
             return conn;
             
